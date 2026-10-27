@@ -1,0 +1,9 @@
+# state written by scan.py and run.sh
+seen.json
+log.txt
+last-scan
+pending.txt
+launchd.log
+__pycache__/
+# your own notifier, if you keep it next to the scripts
+notify.sh

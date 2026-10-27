@@ -1,0 +1,26 @@
+{
+  "name": "Remote AI operations and automation roles, open to a candidate in Austria",
+  "home_words": "austria|\\bdach\\b",
+  "boards": {
+    "greenhouse": ["canonical", "storyblok", "hudl", "gitlab", "vercel", "nebius", "huggingface", "zapier", "remotecom",
+                   "deel", "camunda", "gostudent", "tractive", "bitmovin", "bitpanda", "dynatrace", "anthropic", "cohere",
+                   "perplexityai", "deepset", "automattic", "doist", "typeform", "hotjar", "toggl", "pleo"],
+    "ashby": ["n8n", "elevenlabs", "lovable", "supabase", "replit", "synthesia", "dust", "parloa", "langdock", "pleo",
+              "personio", "deel", "oysterhr", "remote", "mews", "pipedrive", "lindy", "gumloop", "relevanceai", "weaviate",
+              "stackblitz", "vapi", "synthflow", "storyblok", "bryter", "tractive", "bitpanda", "notion", "linear", "cursor"],
+    "lever": ["veo", "mistral", "jobgether", "mistralai"]
+  },
+  "aggregators": {
+    "arbeitnow": true,
+    "remoteok": true,
+    "remotive": ["ai operations", "automation", "operations manager", "founder", "chief of staff", "odoo", "business systems"],
+    "jobicy": ["europe", "austria", "emea"],
+    "himalayas": ["ai operations", "automation manager", "chief of staff", "founder's associate", "odoo"]
+  },
+  "title": {
+    "include": "\\bai\\b[\\w\\s&/,()-]{0,40}\\b(operations|ops|enablement|transformation|adoption|automation|operator|generalist|implementation|rollout|deployment)\\b|\\b(operations|ops|business systems|internal tools|systems)\\b[\\w\\s&/,()-]{0,40}\\b(ai|automation|agents?|llm)\\b|\\b(head|director|lead|manager|vp) of (ai|automation|business operations|operations|ai operations)\\b|\\bautomation\\s+(manager|lead|specialist|consultant|strategist)\\b|\\bbusiness (systems|operations) (manager|lead|specialist|partner)\\b|\\binternal tools\\b|\\bai[- ]native\\b|\\bfounder'?s?\\s+associate\\b|\\bchief of staff\\b|\\bworkflow automation\\b|\\b(no|low)[- ]code\\b|\\bagent (builder|operator|ops)\\b|\\bodoo\\b|\\bdeployment strategist\\b|\\bforward deployed\\b|\\bai (solutions|implementation|success|enablement|transformation|operations) (manager|lead|specialist|consultant)\\b",
+    "exclude": "engineer|developer|scientist|research|intern\\b|internship|werkstudent|working student|\\bsales\\b|account executive|recruit|marketing|security|infrastructure|hardware|data cent|legal|counsel|nurse|teacher|clinical|trainer|annotat|labell|transcri|\\bsdr\\b|\\bbdr\\b|architect\\b|\\bml\\b|machine learning|\\bphd\\b|physician|\\bqa\\b|german[- ]speaking|french[- ]speaking|italian[- ]speaking|spanish[- ]speaking|dutch[- ]speaking|\\bstage\\b|governance|\\bgtm\\b|revenue operations|revops|marketing operations|people operations|\\bhr\\b|payroll|finance operations|designer|design\\b|product manager|product owner|project manager|program(me)? manager|growth|\\bads?\\b|\\bppc\\b|amazon|\\bseo\\b|\\bsem\\b|paid media|performance marketing|junior|graduate|trainee|apprentice|expert program|training program|bootcamp|fellowship|academy|cohort|customer success|customer support|support (specialist|agent|manager)|\\bcsm\\b|\\banalyst\\b|accountant|controller|procurement|supply chain|logistics|warehouse|talent|regulatory|compliance|audit|community|content|copywrit|editor\\b|\\bassociate\\b",
+    "other_language": "\\(m/w/d\\)|\\(w/m/d\\)|\\(m/w/x\\)|\\(w/m/x\\)|\\(d/m/w\\)|\\(m/f/d\\)|m/w/d|:in\\b|Leiter|Leitung|Mitarbeiter|Buchhalt|Berater|Projektleit|Referent|Sachbearbeit|Fachkraft|Kundenbetreu|Vertrieb|Teilzeit|Vollzeit",
+    "generic": "\\b(head|director|lead|manager|vp) of (business operations|operations)\\b|\\bbusiness operations (manager|lead|specialist|partner)\\b|\\bchief of staff\\b|\\bfounder'?s?\\s+associate\\b"
+  }
+}
