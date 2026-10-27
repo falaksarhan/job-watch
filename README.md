@@ -1,5 +1,7 @@
 # job-watch
 
+![tests](https://github.com/falaksarhan/job-watch/actions/workflows/tests.yml/badge.svg)
+
 A weekly scan of public job boards that sends me only the postings I have not seen yet.
 
 I wrote it in October 2026 for my own search for a remote AI operations role from Austria. Every Monday morning it reads about 60 company boards and five aggregator APIs, puts every posting through three filters, and sends the handful of new matches to my phone. Standard library Python, no account, no API key, no language model. The first digests were full of hybrid roles and off target titles, so the filters are strict on purpose.
